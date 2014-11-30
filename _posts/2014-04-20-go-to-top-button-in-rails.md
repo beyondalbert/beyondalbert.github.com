@@ -7,8 +7,6 @@ tags: [rails, ruby]
 ---
 {% include JB/setup %}
 
-## rails中回到顶部
-
 回到页面顶部的功能，在web开发中经常需要用到，自己搜索之后，参考了网上的资料，自己总结一下，以备后用
 
 ## 1、在layouts页面的底部加入a标签

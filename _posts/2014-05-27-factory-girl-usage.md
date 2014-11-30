@@ -7,8 +7,6 @@ tags: [rails, ruby, test]
 ---
 {% include JB/setup %}
 
-## 使用factory_girl创建对象
-
 基于版本： fancory_girl_rails: 4.5.0
 
 ### factory_girl是什么？

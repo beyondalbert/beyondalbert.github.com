@@ -7,8 +7,6 @@ tags: [rails, ruby, test]
 ---
 {% include JB/setup %}
 
-## Rails Rspec 使用简明指南
-
 基于版本： rspec_rails: 3.0.4 factory_girl_rails: 4.5.0
 
 ### Rails中设置

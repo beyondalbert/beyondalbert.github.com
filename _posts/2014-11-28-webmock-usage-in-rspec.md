@@ -7,8 +7,6 @@ tags: [rails, ruby, test]
 ---
 {% include JB/setup %}
 
-## 通过webmock mock Rspec中测试的外部依赖
-
 环境版本： webmock: 1.20.4 rspec-rails: 3.0.2
 
 ### 为什么要mock外部的api依赖

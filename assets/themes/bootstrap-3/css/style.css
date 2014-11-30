@@ -15,12 +15,25 @@
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
-  color: #f22430;
+  color: #666;
 }
 #footer {
-  background-color: #fdcd60;
+  padding-right: 0;
+  padding-left: 0;
+  color: #777;
+  background-color: transparent;
+}
+#footer p {
+  margin: 0 0 10px;
+  padding-top: 19px;
+  border-top: 1px solid #999;
 }
 
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: url("/assets/themes/bootstrap-3/images/bg.png");
+}
 
 
 /* posts index */
@@ -36,6 +49,11 @@ h1, h2, h3, h4 {
 .post > .more {
   margin: 10px 0;
   text-align: left; }
+
+.posts .panel-body {
+  height: 200px;
+  overflow: hidden;
+}
 
 /* post-full*/
 .post-full .date {
@@ -77,3 +95,36 @@ h1, h2, h3, h4 {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+.header {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #999;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.container {
+  max-width: 730px;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+.jumbotron .img-circle {
+  height: 140px;
+  width: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

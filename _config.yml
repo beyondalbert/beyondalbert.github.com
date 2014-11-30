@@ -8,8 +8,9 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Albert
+title : Albert's Blog
 tagline: Site Tagline
+motto: 唯刀百劈，唯心不易
 author :
   name : Albert Yu
   email : beyondalbert@gmail.com
@@ -26,6 +27,9 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://username.github.io
+
+paginate: 6
+paginate_path: "blog/page:num/"
 
 kramdown:
   input: GFM

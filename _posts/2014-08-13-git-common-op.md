@@ -46,6 +46,8 @@ git reset --hard commit_id #回到某个版本
 git reset --hard HEAD~3 #会将最新的3次提交全部重置，就像没有提交过一样
 
 git remote set-url origin url #切换git url
+git config --global user.email "your_email@example.com" #设置全局的用户邮件地址
+git config user.email "your_email@example.com" #设置当前git库的用户邮件地址
 
 #分支1 merge 到 分支2
 git checkout branch2

@@ -265,6 +265,14 @@ $('#target-id').before("<p>test</p>");
 $("<p>test</p>").insertBefore('#target-id');
 ```
 
+##### 给还没有渲染的元素捆绑事件
+
+```javascript
+  $(document).on('click', '#target-element', function() {
+    console.log('test');
+  });
+```
+
 
 
 

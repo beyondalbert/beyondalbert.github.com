@@ -3,7 +3,7 @@ layout: post
 title: "rails 中使用 jstree 使用记录"
 description: ""
 category: 
-tags: []
+tags: [rails, js]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: "jquery使用小记"
 description: ""
 category: 
-tags: []
+tags: [js, jquery]
 ---
 {% include JB/setup %}
 

@@ -2,8 +2,8 @@
 layout: post
 title: "使用logrotate分割rails log"
 description: ""
-category: 
-tags: []
+category: rails笔记
+tags: [运维部署]
 ---
 {% include JB/setup %}
 
